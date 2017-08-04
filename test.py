@@ -1,9 +1,9 @@
 import unittest
 
-class NumbersTest(unittest.TestCase):
+class TestDevOps(unittest.TestCase):
 
-    def test_equal(self):
-        self.assertEqual(1 + 1, 1)
+    def test_conflict(self):
+        self.assertEqual('Dev' + 'Ops', 'Conflict')
 
 if __name__ == '__main__':
     unittest.main()
